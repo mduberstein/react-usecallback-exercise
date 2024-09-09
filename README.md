@@ -1,3 +1,10 @@
+# Illustration to https://react.dev/reference/react/useCallback
+The difference between useCallback and declaring a function directly
+Skip re-rendering with useCallback and memo.
+Toggling counter is slow, because it causes ShippingForm rerendering.
+Changing theme is fast because it doesn't cause ShippingForm rerendering.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
